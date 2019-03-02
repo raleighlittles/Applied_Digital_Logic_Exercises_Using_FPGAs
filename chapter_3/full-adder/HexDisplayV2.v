@@ -2,7 +2,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: Kurt Wick
-// Downloaded from: https://sites.google.com/a/umn.edu/mxp-fpga/home/vivado-notes/phys4051-course-related-materials
+// 
 // Create Date:    16:35:40 07/30/2009 
 // Design Name: 
 // Module Name:    HexDisplayV1 
