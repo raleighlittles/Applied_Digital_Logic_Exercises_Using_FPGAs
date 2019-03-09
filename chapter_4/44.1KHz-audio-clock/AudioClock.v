@@ -39,8 +39,6 @@ module AudioClock(
         begin
             if (count < 2267)
             begin
-                //audio_clk <= 1;
-                //count <= 0;
                 count <= count + 1;
                 audio_clk <= 0;
             end
