@@ -1,0 +1,12 @@
+digraph finite_state_machine {
+  node [shape = doublecircle]; RESET;
+  node [shape=circle];
+  size="7,3"
+  rankdir=LR;
+  RESET -> STARTUP [ label = "reset" ];
+  STARTUP -> COUNTING;
+  COUNTING -> COUNTING [ label = "n / f_clk < 𝜏_ref"];
+  COUNTING -> STORE_COUNTS [label = "n / f_clk = 𝜏_ref"];
+  STORE_COUNTS -> RESET_COUNTERS;
+  RESET_COUNTERS -> COUNTING;
+}
